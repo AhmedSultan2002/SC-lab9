@@ -8,7 +8,7 @@ public class ConcreteEdgesGraphTest extends GraphInstanceTest {
 
     @Override
     protected Graph<String> emptyInstance() {
-        return new ConcreteEdgesGraph();
+        return new ConcreteEdgesGraph<>();
     }
 
     @Test
